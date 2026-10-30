@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>MIMAROPA Travel &amp; Tours | Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover the islands, beaches, culture and adventures of MIMAROPA: Mindoro, Marinduque, Romblon and Palawan."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="home">
+    <!--Navigation Bar-->
+    <nav>
+      <div class="brand">
+        <a href="index.html" aria-label="MIMAROPA Travel and Tours home">
+          <img
+            class="logo"
+            src="Assets/Icons/logo.svg"
+            alt=""
+            aria-hidden="true"
+          />
+          <span><b>MIMAROPA</b><small>TRAVEL &amp; TOURS</small></span>
+        </a>
+      </div>
+      <input
+        type="checkbox"
+        id="menu-toggle"
+        class="menu-check"
+        aria-label="Toggle menu"
+      />
+      <label for="menu-toggle" class="menu-btn">&#9776;</label>
+      <ul class="links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="history.html">History &amp; Culture</a></li>
+        <li><a href="plan-trip.html">Plan Your Trip</a></li>
+        <li>
+          <a href="plan-trip.html" class="cta">Start Your Journey &rarr;</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--Hero Video-->
+    <section class="hero" aria-label="Hero banner">
+      <video
+        class="hero-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        poster="Assets/Images/hero-mimaropa-islands.jpg"
+      >
+        <source src="Assets/Videos/hero-mimaropa.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-shade"></div>
+
+      <div class="hero-text">
+        <p class="eyebrow">EXPLORE THE BEST OF</p>
+        <h1>MIMAROPA</h1>
+        <p class="script">Destinations</p>
+        <p class="hero-desc">
+          Discover breathtaking islands, pristine beaches, rich cultural
+          heritage, and unforgettable experiences across Mindoro, Marinduque,
+          Romblon, and Palawan.
+        </p>
+        <a class="btn" href="destinations.html"
+          >Explore All Destinations &rarr;</a
+        >
+      </div>
+
+      <div class="hero-side">
+        <svg
+          viewBox="0 0 300 340"
+          role="img"
+          aria-label="Map of the MIMAROPA islands"
+        >
+          <path
+            class="map-line"
+            pathLength="1"
+            d="M60 90 C50 60 90 40 110 55 C130 70 125 110 105 135 C85 150 65 125 60 90 Z"
+          />
+          <path
+            class="map-line"
+            pathLength="1"
+            d="M200 20 C212 12 226 24 222 40 C212 54 196 42 200 20 Z"
+          />
+          <path
+            class="map-line"
+            pathLength="1"
+            d="M205 85 C218 76 232 88 228 104 C216 116 200 102 205 85 Z"
+          />
+          <path
+            class="map-line"
+            pathLength="1"
+            d="M170 130 C182 122 196 134 190 148 C178 156 164 144 170 130 Z"
+          />
+          <path
+            class="map-line"
+            pathLength="1"
+            d="M170 190 C185 205 172 235 150 255 C130 280 100 305 60 335 C45 340 48 325 58 312 C85 285 108 252 122 222 C138 195 158 178 170 190 Z"
+          />
+          <text class="map-text" x="110" y="40">Mindoro</text>
+          <text class="map-text" x="228" y="30">Marinduque</text>
+          <text class="map-text" x="234" y="98">Romblon</text>
+          <text class="map-text" x="60" y="205">Palawan</text>
+        </svg>
+        <p class="tag">Five Provinces.<br />Endless Adventures.</p>
+      </div>
+    </section>
+
+    <!--Province Cards-->
+    <section class="provinces" aria-label="Provinces of MIMAROPA">
+      <a class="pcard zoom reveal" href="destinations.html">
+        <img
+          src="Assets/Images/apo-reef-natural-park.jpg"
+          alt="Occidental Mindoro"
+          loading="lazy"
+        />
+        <div class="info">
+          <h3>Occidental Mindoro</h3>
+          <p>Mountains, beaches, and indigenous heritage.</p>
+          <span class="arrow">&rarr;</span>
+        </div>
+      </a>
+      <a class="pcard zoom reveal" href="destinations.html">
+        <img
+          src="Assets/Images/puerto-galera-white-beach.jpg"
+          alt="Oriental Mindoro"
+          loading="lazy"
+        />
+        <div class="info">
+          <h3>Oriental Mindoro</h3>
+          <p>Island escapes and natural wonders.</p>
+          <span class="arrow">&rarr;</span>
+        </div>
+      </a>
+      <a class="pcard zoom reveal" href="destinations.html">
+        <img
+          src="Assets/Images/boac-cathedral-marinduque.jpg"
+          alt="Marinduque"
+          loading="lazy"
+        />
+        <div class="info">
+          <h3>Marinduque</h3>
+          <p>Faith, culture, and island charm.</p>
+          <span class="arrow">&rarr;</span>
+        </div>
+      </a>
+      <a class="pcard zoom reveal" href="destinations.html">
+        <img
+          src="Assets/Images/bonbon-beach-romblon.jpg"
+          alt="Romblon"
+          loading="lazy"
+        />
+        <div class="info">
+          <h3>Romblon</h3>
+          <p>Islands, marble, and local treasures.</p>
+          <span class="arrow">&rarr;</span>
+        </div>
+      </a>
+      <a class="pcard zoom reveal" href="destinations.html">
+        <img
+          src="Assets/Images/el-nido-limestone-lagoon.jpg"
+          alt="Palawan"
+          loading="lazy"
+        />
+        <div class="info">
+          <h3>Palawan</h3>
+          <p>World-renowned beauty and adventure.</p>
+          <span class="arrow">&rarr;</span>
+        </div>
+      </a>
+    </section>
+
+    <!--Main Content-->
+    <main>
+      <section class="intro reveal">
+        <h2>
+          Welcome to MIMAROPA &mdash; More Than a Destination, It&rsquo;s an
+          Experience!
+        </h2>
+        <p>
+          Discover breathtaking islands, crystal-clear waters, majestic
+          mountains, rich cultural heritage, and unforgettable adventures. From
+          the natural wonders of Palawan to the vibrant traditions of Mindoro,
+          Marinduque, and Romblon, MIMAROPA invites you to explore, discover,
+          and create memories that last a lifetime.
+        </p>
+        <p>
+          Your next adventure begins here. Come and experience the beauty of
+          MIMAROPA!
+        </p>
+      </section>
+
+      <section>
+        <h2 class="title reveal">Popular Tourist Spots</h2>
+        <div class="gallery">
+          <figure class="reveal">
+            <div class="zoom">
+              <img
+                src="Assets/Images/el-nido-limestone-lagoon.jpg"
+                alt="Limestone cliffs rising from a turquoise lagoon"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>El Nido, Palawan</figcaption>
+          </figure>
+          <figure class="reveal">
+            <div class="zoom">
+              <img
+                src="Assets/Images/puerto-princesa-underground-river.jpg"
+                alt="Boat entering a river cave surrounded by forest"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>Puerto Princesa Underground River, Palawan</figcaption>
+          </figure>
+          <figure class="reveal">
+            <div class="zoom">
+              <img
+                src="Assets/Images/coron-kayangan-lake.jpg"
+                alt="Clear lake between rocky cliffs"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>Coron, Palawan</figcaption>
+          </figure>
+          <figure class="reveal">
+            <div class="zoom">
+              <img
+                src="Assets/Images/puerto-galera-white-beach.jpg"
+                alt="Sandy beach with boats and clear water"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>Puerto Galera, Oriental Mindoro</figcaption>
+          </figure>
+          <figure class="reveal">
+            <div class="zoom">
+              <img
+                src="Assets/Images/apo-reef-natural-park.jpg"
+                alt="Coral reef seen from above in blue water"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>Apo Reef Natural Park, Occidental Mindoro</figcaption>
+          </figure>
+          <figure class="reveal">
+            <div class="zoom">
+              <img
+                src="Assets/Images/boac-cathedral-marinduque.jpg"
+                alt="Old stone cathedral on a hill"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>Boac Cathedral, Marinduque</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer id="contact" class="box15">
+      <h3>MIMAROPA Travel &amp; Tours (School Project)</h3>
+      <p>
+        Email: Elnard@gmail.com | Phone: (123) 345-6789 | Region IV-B,
+        Philippines
+      </p>
+      <p>Please respect local communities and protect the environment.</p>
+    </footer>
+  </body>
+</html>

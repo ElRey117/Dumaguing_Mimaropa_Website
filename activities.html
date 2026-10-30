@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Activities &amp; Experiences | MIMAROPA Travel &amp; Tours</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Things to do in MIMAROPA: island hopping, diving, nature trails, festivals, local food and more."
+    />
+    <link rel="icon" type="image/svg+xml" href="Assets/Icons/logo.svg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--Navigation Bar-->
+    <nav>
+      <div class="brand">
+        <a href="index.html" aria-label="MIMAROPA Travel and Tours home">
+          <img
+            class="logo"
+            src="Assets/Icons/logo.svg"
+            alt=""
+            aria-hidden="true"
+          />
+          <span><b>MIMAROPA</b><small>TRAVEL &amp; TOURS</small></span>
+        </a>
+      </div>
+      <input
+        type="checkbox"
+        id="menu-toggle"
+        class="menu-check"
+        aria-label="Toggle menu"
+      />
+      <label for="menu-toggle" class="menu-btn">&#9776;</label>
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="activities.html" class="active">Activities</a></li>
+        <li><a href="history.html">History &amp; Culture</a></li>
+        <li><a href="plan-trip.html">Plan Your Trip</a></li>
+        <li>
+          <a href="plan-trip.html" class="cta">Start Your Journey &rarr;</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--Announcement Strip-->
+    <div class="strip">
+      <svg
+        viewBox="0 0 48 48"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="3"
+        aria-hidden="true"
+      >
+        <circle cx="24" cy="24" r="18" />
+        <path d="M30 18 L26 26 L18 30 L22 22 Z" />
+      </svg>
+      <span
+        >Discover the natural beauty, rich culture, and warm communities of
+        MIMAROPA.</span
+      >
+      <a href="destinations.html">Explore Now &rarr;</a>
+    </div>
+
+    <!--Hero-->
+    <section class="split">
+      <div class="hero-card">
+        <p class="eyebrow2">THINGS TO DO</p>
+        <h1>Activities &amp; Experiences</h1>
+        <p>
+          From island escapes and underwater discoveries to cultural traditions
+          and scenic nature trails, there is something for every traveler in
+          MIMAROPA.
+        </p>
+        <a class="link" href="#adventure">Explore Activities &rarr;</a>
+      </div>
+      <div class="collage">
+        <div class="frame f1">
+          <div class="zoom">
+            <img
+              src="Assets/Images/el-nido-limestone-lagoon.jpg"
+              alt="Limestone cliffs rising from a turquoise lagoon"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div class="frame f2">
+          <div class="zoom">
+            <img
+              src="Assets/Images/coron-kayangan-lake.jpg"
+              alt="Clear lake between rocky cliffs"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div class="frame f3">
+          <div class="zoom">
+            <img
+              src="Assets/Images/apo-reef-natural-park.jpg"
+              alt="Coral reef seen from above in blue water"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Main Content-->
+    <main>
+      <!--Category Cards-->
+      <div class="acards">
+        <a class="acard reveal" href="#adventure">
+          <div class="zoom">
+            <img
+              src="Assets/Images/el-nido-limestone-lagoon.jpg"
+              alt="Adventure"
+              loading="lazy"
+            />
+          </div>
+          <div class="row">
+            <svg
+              viewBox="0 0 48 48"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+              stroke-linecap="round"
+              aria-hidden="true"
+            >
+              <path d="M4 18 q5-7 10 0 t10 0 t10 0 t10 0" />
+              <path d="M4 30 q5-7 10 0 t10 0 t10 0 t10 0" />
+            </svg>
+            <span>Adventure</span><em>&rarr;</em>
+          </div>
+        </a>
+        <a class="acard reveal" href="#nature">
+          <div class="zoom">
+            <img
+              src="Assets/Images/puerto-princesa-underground-river.jpg"
+              alt="Nature"
+              loading="lazy"
+            />
+          </div>
+          <div class="row">
+            <svg
+              viewBox="0 0 48 48"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M8 40 C8 20 20 8 40 8 C40 28 28 40 8 40 Z" />
+              <path d="M8 40 L26 22" />
+            </svg>
+            <span>Nature</span><em>&rarr;</em>
+          </div>
+        </a>
+        <a class="acard reveal" href="#culture">
+          <div class="zoom">
+            <img
+              src="Assets/Images/boac-cathedral-marinduque.jpg"
+              alt="Culture"
+              loading="lazy"
+            />
+          </div>
+          <div class="row">
+            <svg
+              viewBox="0 0 48 48"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M8 42 V22 L24 10 L40 22 V42 Z" />
+              <path d="M20 42 V30 H28 V42" />
+              <path d="M24 4 V10 M21 7 H27" />
+            </svg>
+            <span>Culture</span><em>&rarr;</em>
+          </div>
+        </a>
+        <a class="acard reveal" href="#food">
+          <div class="zoom">
+            <img
+              src="Assets/Images/food-mimaropa.jpg"
+              alt="Food"
+              loading="lazy"
+            />
+          </div>
+          <div class="row">
+            <svg
+              viewBox="0 0 48 48"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="24" cy="26" r="13" />
+              <circle cx="24" cy="26" r="7" />
+              <path
+                d="M6 8 V18 M10 8 V18 M14 8 V18 M10 18 V24 M42 8 C38 12 38 18 42 22 V30"
+              />
+            </svg>
+            <span>Food</span><em>&rarr;</em>
+          </div>
+        </a>
+      </div>
+
+      <!--Adventure-->
+      <section class="detail" id="adventure">
+        <div class="zoom reveal left">
+          <img
+            src="Assets/Images/apo-reef-natural-park.jpg"
+            alt="Coral reef seen from above in blue water"
+            loading="lazy"
+          />
+        </div>
+        <div class="reveal right">
+          <h2>
+            <svg
+              viewBox="0 0 48 48"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+              stroke-linecap="round"
+              aria-hidden="true"
+            >
+              <path d="M4 18 q5-7 10 0 t10 0 t10 0 t10 0" />
+              <path d="M4 30 q5-7 10 0 t10 0 t10 0 t10 0" />
+            </svg>
+            Adventure
+          </h2>
+          <p>
+            Explore turquoise lagoons, vibrant coral reefs and scenic trails.
+            Whether you paddle, swim or hike, the islands reward every kind of
+            explorer.
+          </p>
+          <ul class="acts">
+            <li>Island hopping in El Nido and Coron, Palawan</li>
+            <li>Snorkeling and diving at Apo Reef and Puerto Galera</li>
+            <li>Kayaking in the lagoons of Palawan</li>
+            <li>Hiking scenic trails</li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Nature-->
+      <section class="detail flip" id="nature">
+        <div class="zoom reveal right">
+          <img
+            src="Assets/Images/bonbon-beach-romblon.jpg"
+            alt="White sand beach with calm sea"
+            loading="lazy"
+          />
+        </div>
+        <div class="reveal left">
+          <h2>
+            <svg
+              viewBox="0 0 48 48"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M8 40 C8 20 20 8 40 8 C40 28 28 40 8 40 Z" />
+              <path d="M8 40 L26 22" />
+            </svg>
+            Nature
+          </h2>
+          <p>
+            Slow down and enjoy MIMAROPA&rsquo;s protected forests, quiet
+            waterfalls and long white-sand beaches. Remember to leave every
+            place as clean as you found it.
+          </p>
+          <ul class="acts">
+            <li>Paddle-boat tour of the Puerto Princesa Underground River</li>
+            <li>Visiting waterfalls and protected forests</li>
+            <li>Relaxing on white-sand beaches such as Bonbon Beach</li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Culture-->
+      <section class="detail" id="culture">
+        <div class="zoom reveal left">
+          <img
+            src="Assets/Images/moriones-festival.jpg"
+            alt="Moriones Festival, Marinduque"
+            loading="lazy"
+          />
+        </div>
+        <div class="reveal right">
+          <h2>
+            <svg
+              viewBox="0 0 48 48"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M8 42 V22 L24 10 L40 22 V42 Z" />
+              <path d="M20 42 V30 H28 V42" />
+              <path d="M24 4 V10 M21 7 H27" />
+            </svg>
+            Culture
+          </h2>
+          <p>
+            Spanish-era churches, colorful festivals and Indigenous traditions
+            tell the story of the region. Join local celebrations with respect
+            and curiosity.
+          </p>
+          <ul class="acts">
+            <li>Visiting heritage churches such as Boac Cathedral</li>
+            <li>
+              Watching the Moriones Festival in Marinduque during Holy Week
+            </li>
+            <li>Seeing Romblon marble carving</li>
+            <li>
+              Learning about Mangyan and Palawan Indigenous heritage with
+              respect
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Food-->
+      <section class="detail flip" id="food">
+        <div class="zoom reveal right">
+          <img
+            src="Assets/Images/food-mimaropa.jpg"
+            alt="Local food of MIMAROPA"
+            loading="lazy"
+          />
+        </div>
+        <div class="reveal left">
+          <h2>
+            <svg
+              viewBox="0 0 48 48"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="24" cy="26" r="13" />
+              <circle cx="24" cy="26" r="7" />
+              <path
+                d="M6 8 V18 M10 8 V18 M14 8 V18 M10 18 V24 M42 8 C38 12 38 18 42 22 V30"
+              />
+            </svg>
+            Food
+          </h2>
+          <p>
+            Taste the islands through fresh seafood, sweet treats and local
+            specialties. Markets and seaside eateries are the best places to try
+            them.
+          </p>
+          <ul class="acts">
+            <li>Tasting uraro cookies from Marinduque</li>
+            <li>Trying cashew products from Palawan</li>
+            <li>Visiting local markets and seaside eateries</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer id="contact" class="box15">
+      <h3>MIMAROPA Travel &amp; Tours (School Project)</h3>
+      <p>
+        Email: Elnard@gmail.com | Phone: (123) 345-6789 | Region IV-B,
+        Philippines
+      </p>
+      <p>Please respect local communities and protect the environment.</p>
+    </footer>
+  </body>
+</html>
